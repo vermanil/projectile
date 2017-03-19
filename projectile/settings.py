@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'mainapp',
     'notifications',
     'multiselectfield',
+    'djangobower',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [

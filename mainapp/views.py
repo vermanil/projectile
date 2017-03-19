@@ -48,7 +48,6 @@ def encrypt(key, plaintext):
 
 # encrypt a string and return :param key:param plaintext: :return: unicode(encryptedtext)
 
-
 def decrypt(key, ciphertext):
     cipher = XOR.new(key)
     return cipher.decrypt(base64.b64decode(ciphertext))
